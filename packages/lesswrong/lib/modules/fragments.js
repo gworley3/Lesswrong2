@@ -13,6 +13,7 @@ registerFragment(`
     displayName
     emailHash
     karma
+    afKarma
   }
 `);
 
@@ -168,6 +169,7 @@ registerFragment(`
     suggestForCuratedUsernames
     reviewForCuratedUserId
     af
+    afBaseScore
     allVotes {
       ...VoteMinimumInfo
     }
@@ -346,6 +348,7 @@ registerFragment(`
       ...VoteMinimumInfo
     }
     af
+    afBaseScore
   }
 `);
 
@@ -508,6 +511,7 @@ registerFragment(`
     location
     googleLocation
     mongoLocation
+    afKarma
   }
 `);
 
